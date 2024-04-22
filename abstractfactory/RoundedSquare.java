@@ -10,5 +10,8 @@ package abstractfactory;
  * @author sp21-bse-041
  */
 public class RoundedSquare {
-    
+       
+   public void draw() {
+      System.out.println("Inside RoundedSquare::draw() method.");
+   }
 }
