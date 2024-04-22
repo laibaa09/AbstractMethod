@@ -10,5 +10,8 @@ package abstractfactory;
  * @author sp21-bse-041
  */
 public class Rectangle {
-    
+     @Override
+   public void draw() {
+      System.out.println("Inside Rectangle::draw() method.");
+   }
 }
