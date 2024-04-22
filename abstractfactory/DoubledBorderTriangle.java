@@ -10,5 +10,7 @@ package abstractfactory;
  * @author sp21-bse-041
  */
 public class DoubledBorderTriangle {
-    
+    public void draw() {
+      System.out.println("Inside doubledborderedtriangle::draw() method.");
+   }
 }
