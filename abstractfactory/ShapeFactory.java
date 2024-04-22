@@ -10,5 +10,18 @@ package abstractfactory;
  * @author sp21-bse-041
  */
 public class ShapeFactory {
-    
+        
+   public  getShape(String shapeType){    
+      if(shapeType.equalsIgnoreCase("RECTANGLE")){
+         return new Rectangle();         
+      }else if (shapeType.equalsIgnoreCase("SQUARE")){
+         return new Square();
+      }	 
+      else(shapeType.equalsIgnoreCase("Triangle")){
+         return new Triangle();
+     
+    return null;
+   }
+
+    }
 }
