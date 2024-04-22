@@ -10,5 +10,5 @@ package abstractfactory;
  * @author sp21-bse-041
  */
 public class abstractfact {
-    
+    abstract Shape getShape(String shapeType) ;
 }
