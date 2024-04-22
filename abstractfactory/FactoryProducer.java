@@ -10,5 +10,11 @@ package abstractfactory;
  * @author sp21-bse-041
  */
 public class FactoryProducer {
-    
+     public static RoundedShapeFactory getFactory(boolean rounded){   
+      if(rounded){
+         return new RoundedShapeFactory();         
+      }else{
+         return new ShapeFactory();
+      }
+   }
 }
